@@ -1,10 +1,7 @@
 compton -b
 plank &
-polybar top &
+tint2 &
+sh ~/.launch.sh &
 sh ~/.fehbg &
 sh ~/.pagi &
 sh ~/.amixer &
-nm-applet &
-pa-applet &
-xfce4-power-manager &
-conky &
