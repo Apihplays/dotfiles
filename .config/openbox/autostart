@@ -1,0 +1,10 @@
+compton -b
+plank &
+polybar top &
+sh ~/.fehbg &
+sh ~/.pagi &
+sh ~/.amixer &
+nm-applet &
+pa-applet &
+xfce4-power-manager &
+conky &
