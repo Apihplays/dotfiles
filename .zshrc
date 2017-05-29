@@ -12,6 +12,8 @@ alias malam='redshift -O 3500'
 alias upgrade='sudo pacman -Syu'
 alias optimize='sudo pacman-optimize'
 alias pac='sudo pacman -S'
+alias exit='openbox --exit'
+alias recon='openbox --reconfigure'
 
 #highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
