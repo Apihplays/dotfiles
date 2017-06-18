@@ -39,14 +39,16 @@
 URxvt*scrollBar:         false
 URxvt*scrollBar_right:   false
 URxvt*transparent:       false
-URxvt.font: xft:Hack:Regular:pixelsize=12
-URxvt.letterSpace: 0
+
+URxvt.font: xft:RobotoMono Nerd Font:Bold:pixelsize=14
+URxvt.letterSpace: -1
 URxvt.url-launcher:     firefox
 URxvt.matcher.button: 1
 URxvt*borderWidth    : 0
 URxvt*internalBorder : 0
 URxvt*externalBorder : 0
-URxvt*borderLess     : true
+URxvt.geometry       : 83x24
+URxvt*borderLess     : false
 
 ! █▓▒░ clipboard
 urxvt.perl-ext-common: default,clipboard,keyboard-select
