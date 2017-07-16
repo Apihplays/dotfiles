@@ -25,9 +25,7 @@ man() {
 	LESS_TERMCAP_us=$(printf "\e[1;32m") \
 	man "$@"
 }
-
-source /usr/share/zsh/share/antigen.zsh
-antigen use oh-my-zsh
-antigen theme https://github.com/denysdovhan/spaceship-zsh-theme spaceship
-antigen theme robbyrussell
-antigen apply
+POWERLEVEL9K_MODE='awesome-fontconfig'
+source  ~/powerlevel9k/powerlevel9k.zsh-theme
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context dir os_icon vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(disk_usage ram root_indicator history)
