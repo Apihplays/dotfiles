@@ -1,7 +1,9 @@
 compton -b
 plank &
 tint2 &
-sh ~/.launch.sh &
-sh ~/.fehbg &
-sh ~/.pagi &
-sh ~/.amixer &
+sh ~/.fehbg
+pa-applet &
+nm-applet &
+xfce4-power-manager &
+redshift -O 3000 &
+amixer sset 'Master' 25% &
