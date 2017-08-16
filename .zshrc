@@ -5,7 +5,7 @@ autoload -Uz compinit
 #alias
 alias pagi='redshift -O 5500'
 alias malam='redshift -O 3000'
-alias upgrade='sudo yaourt -Syua'
+alias upgrade='yaourt -Syua'
 alias optimize='sudo pacman-optimize'
 alias pac='sudo pacman'
 alias exit='openbox --exit'
