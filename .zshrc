@@ -5,13 +5,12 @@ autoload -Uz compinit
 #alias
 alias pagi='redshift -O 5500'
 alias malam='redshift -O 3000'
-alias upgrade='sudo pacman -Syu'
+alias upgrade='sudo yaourt -Syua'
 alias optimize='sudo pacman-optimize'
 alias pac='sudo pacman'
 alias exit='openbox --exit'
 alias reconfigure='openbox --reconfigure'
-
-alias screenfetch="screenfetch -w -c 31,3"
+#pacman with ghost
 ~/.pacman.sh
 
 man() {
@@ -25,6 +24,7 @@ man() {
 	LESS_TERMCAP_us=$(printf "\e[1;32m") \
 	man "$@"
 }
+#zsh theme
 POWERLEVEL9K_MODE='awesome-fontconfig'
 source  ~/powerlevel9k/powerlevel9k.zsh-theme
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status context dir os_icon vcs)
