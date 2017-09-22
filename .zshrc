@@ -1,14 +1,17 @@
 #highlighting
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 autoload -Uz compinit
-
+#android
+export USE_CCACHE=1
+export CCACHE_COMPRESS=1
+export ANDROID_JACK_VM_ARGS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4G"
 #alias
 alias pagi='redshift -O 5500'
 alias malam='redshift -O 3000'
-alias upgrade='yaourt -Syua'
+alias upgrade='pacaur -Syu'
 alias optimize='sudo pacman-optimize'
-alias pac='sudo pacman'
-alias exit='openbox --exit'
+alias pac='pacaur'
+alias exited='openbox --exit'
 alias reconfigure='openbox --reconfigure'
 #pacman with ghost
 ~/.pacman.sh
