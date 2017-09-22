@@ -7,3 +7,4 @@ nm-applet &
 xfce4-power-manager &
 redshift -O 3000 &
 amixer sset 'Master' 25% &
+light-locker &
