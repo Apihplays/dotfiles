@@ -2,6 +2,6 @@
 
 ## i3 :ok_hand:
 
-![zshconfig](https://imgur.com/Hpv3Uye)
+![fakebusy](https://i.imgur.com/Hpv3Uye.png)
 
 #masih belajar nasik :octocat:
