@@ -19,7 +19,10 @@ bindsym $mod+x exec steam
 bindsym --release $mod+c exec scrot
 bindsym $mod+b exec discord-canary
 bindsym $mod+n exec pcmanfm
+bindsym $mod+Shift+m exec lollypop
 bindsym $mod+m exec thunderbird
+bindsym --release $mod+Mod1+Up exec amixer -q set Master 5%+ unmute
+bindsym --release $mod+Mod1+Down exec amixer -q set Master 5%- unmute
 #
 
 bindsym $mod+Left focus left
@@ -136,7 +139,8 @@ gaps outer 10
 exec --no-startup-id tint2 &
 exec --no-startup-id pa-applet &
 exec --no-startup-id redshift-gtk &
-exec_always --no-startup-id xfce4-power-manager &
+exec_always --no-startup-id numlockx on
+exec_always --no-startup-id xfce4-power-manager
 exec_always --no-startup-id dunst &
 exec_always --no-startup-id compton -b
 exec_always --no-startup-id light-locker &
