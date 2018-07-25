@@ -1,0 +1,10 @@
+plank &
+compton -b
+tint2 &
+feh --bg-scale '/home/apih/.wallpaper/thomasb_glass_ball.jpg'
+nm-applet &
+pa-applet &
+light-locker &
+xfce4-power-manager &
+redshift-gtk &
+numlockx on
