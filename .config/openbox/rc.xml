@@ -363,6 +363,13 @@
       </action>
     </keybind>
 
+<!-- Screenshot -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>scrot ~/screenshots/%Y-%m-%d-%T-screenshot.png</command>
+      </action>
+    </keybind>
+
 
 
 
