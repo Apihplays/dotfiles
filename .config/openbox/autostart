@@ -8,3 +8,4 @@ light-locker &
 xfce4-power-manager &
 redshift-gtk &
 numlockx on
+pcmanfm --desktop &
