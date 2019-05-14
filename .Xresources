@@ -1,0 +1,10 @@
+! Black + DarkGrey
+*color0: #000000
+*color8: #555753
+
+!make urvxt Darkgrey
+!URxvt.color8: #555753
+
+!URxvt font
+URxvt*font: xft:Hack:style:regular:pixelsize=12,xft:Source Code Pro 
+Medium:pixelsize=13:antialias=true:hinting=true
