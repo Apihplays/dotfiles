@@ -332,6 +332,11 @@
         <command>light-locker-command -l</command>
       </action>
     </keybind>
+          <keybind key="Print">
+      <action name="Execute">
+        <command>scrot -e 'mv $f ~/.screenshot/'</command>
+      </action>
+    </keybind>
     <keybind key="W-A-Up">
       <action name="Execute">
         <command>amixer -q set Master 5%+ unmute</command>
